@@ -2,12 +2,16 @@
   "name": "master-list-anki-provider",
   "version": "0.1.0",
   "description": "Master List Provider for Anki",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b --verbose",
+    "postinstall": "npm run build"
   },
   "author": "Caine Rotherham",
-  "dependencies": {
-    "master-list": "git://github.com/zeyber/master-console.git"
+  "peerDependencies": {
+    "master-list": "git://github.com/zeyber/master-list.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
   }
 }
