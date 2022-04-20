@@ -1,4 +1,4 @@
-import { ProviderOptions, PuppeteerProvider } from "master-list";
+import { ProviderOptions, PuppeteerProvider } from "@master-list/core";
 
 export interface AnkiOptions extends ProviderOptions {
   email: string;

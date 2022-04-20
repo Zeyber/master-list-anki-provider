@@ -4,14 +4,14 @@
   "description": "Master List Provider for Anki",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -b --verbose",
-    "postinstall": "npm run build"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "author": "Caine Rotherham",
-  "peerDependencies": {
-    "master-list": "git://github.com/zeyber/master-list.git"
-  },
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@master-list/core": "^0.1.0"
   }
 }

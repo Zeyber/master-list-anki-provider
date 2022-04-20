@@ -1,1 +1,1 @@
-export * from "./AnkiProvider";
+export * from "./src/index";
