@@ -1,5 +1,5 @@
 {
-  "name": "master-list-anki-provider",
+  "name": "@zeyber/master-list-anki-provider",
   "version": "0.1.0",
   "description": "Master List Provider for Anki",
   "main": "dist/index.js",
